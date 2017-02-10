@@ -1,9 +1,9 @@
-namespace Morpher.Russian
+ï»¿namespace Morpher.Russian
 {
     public static class Vowels
     {
-        public const string LowercaseString = "àÿî¸èûóşıå";
-        public const string UppercaseString = "ÀßÎ¨ÈÛÓŞİÅ";
+        public const string LowercaseString = "Ğ°ÑĞ¾Ñ‘Ğ¸Ñ‹ÑƒÑÑĞµ";
+        public const string UppercaseString = "ĞĞ¯ĞĞĞ˜Ğ«Ğ£Ğ®Ğ­Ğ•";
         public static readonly char[] LowercaseArray = LowercaseString.ToCharArray();
         public static readonly char[] UppercaseArray = UppercaseString.ToCharArray();
     }

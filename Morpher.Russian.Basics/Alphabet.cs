@@ -1,9 +1,9 @@
-namespace Morpher.Russian
+ï»¿namespace Morpher.Russian
 {
     public static class Alphabet
     {
-        public const string LowercaseString = "àáâãäå¸æçèéêëìíîïğñòóôõö÷øùúûüışÿ";
-        public const string UppercaseString = "ÀÁÂÃÄÅ¨ÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞß";
+        public const string LowercaseString = "Ğ°Ğ±Ğ²Ğ³Ğ´ĞµÑ‘Ğ¶Ğ·Ğ¸Ğ¹ĞºĞ»Ğ¼Ğ½Ğ¾Ğ¿Ñ€ÑÑ‚ÑƒÑ„Ñ…Ñ†Ñ‡ÑˆÑ‰ÑŠÑ‹ÑŒÑÑÑ";
+        public const string UppercaseString = "ĞĞ‘Ğ’Ğ“Ğ”Ğ•ĞĞ–Ğ—Ğ˜Ğ™ĞšĞ›ĞœĞĞĞŸĞ Ğ¡Ğ¢Ğ£Ğ¤Ğ¥Ğ¦Ğ§Ğ¨Ğ©ĞªĞ«Ğ¬Ğ­Ğ®Ğ¯";
         public static readonly char[] LowercaseArray = LowercaseString.ToCharArray();
         public static readonly char[] UppercaseArray = UppercaseString.ToCharArray();
     }
