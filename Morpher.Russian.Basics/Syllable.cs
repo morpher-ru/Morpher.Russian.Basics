@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Morpher.Russian
@@ -7,23 +8,13 @@ namespace Morpher.Russian
     {
         public static bool IsMultisyllable (string lowercaseRussianWord)
         {
-            NotNullOrEmpty(lowercaseRussianWord);
-
             return lowercaseRussianWord.IndexOfAny (Vowels.LowercaseArray) 
                 != lowercaseRussianWord.LastIndexOfAny (Vowels.LowercaseArray);
         }
 
-        public static int GetSyllableCount (string lowercaseRussianWord)
+        public static int GetSyllableCount (IEnumerable<char> lowercaseRussianWord)
         {
-            NotNullOrEmpty(lowercaseRussianWord);
-
             return lowercaseRussianWord.Count (Vowels.LowercaseString.Contains);
-        }
-
-        private static void NotNullOrEmpty(string lowercaseRussianWord)
-        {
-            if (string.IsNullOrEmpty(lowercaseRussianWord))
-                throw new ArgumentException("Input string should not be null or empty.", nameof(lowercaseRussianWord));
         }
     }
 }
