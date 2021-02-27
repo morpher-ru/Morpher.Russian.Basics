@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morpher.Russian.Basics", "Morpher.Russian.Basics\Morpher.Russian.Basics.csproj", "{37410C1B-889B-4D13-824F-661B7358D95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morpher.Russian.Basics", "Morpher.Russian.Basics\Morpher.Russian.Basics.csproj", "{37410C1B-889B-4D13-824F-661B7358D95F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morpher.Russian.Basics.Tests", "Morpher.Russian.Basics.Tests\Morpher.Russian.Basics.Tests.csproj", "{6B74BEEE-44C9-4AEB-9AB1-2331A9234771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morpher.Russian.Basics.Tests", "Morpher.Russian.Basics.Tests\Morpher.Russian.Basics.Tests.csproj", "{6B74BEEE-44C9-4AEB-9AB1-2331A9234771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98DD592C-CB5E-4D68-9EB2-3C22E1E4054A}
 	EndGlobalSection
 EndGlobal
