@@ -1,13 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFrameworks>netstandard2.0;net40</TargetFrameworks>
-    <version>1.0.1</version>
+    <version>1.1.1</version>
+    <LangVersion>9</LangVersion>
     <RootNamespace>Morpher.Russian</RootNamespace>
-    <authors>Sergey Slepov</authors>
+    <Authors>Sergey Slepov</Authors>
+    <Owners>morpher</Owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Low level Russian functions and constants.</description>
-    <PackageReleaseNotes>Support .NET Standard 2.0</PackageReleaseNotes>
+    <description>Low-level Russian functions and constants.</description>
+    <PackageReleaseNotes>Add Stress</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

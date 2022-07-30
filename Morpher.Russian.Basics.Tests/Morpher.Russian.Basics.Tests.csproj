@@ -5,7 +5,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>DictionaryReader.NUnut.Tests</RootNamespace>
+    <RootNamespace>Morpher.Russian</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
